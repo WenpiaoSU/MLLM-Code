@@ -91,6 +91,3 @@ if __name__ == "__main__":
     # 输出结果
     print(f"输出形状：{output.shape}")  # [1, 4, 512]
     print(f"输出内容(保留四位小数)：\n {torch.round(output * 10000) / 10000}")
-
-
-
